@@ -1,23 +1,5 @@
-/*let datito = parseInt(prompt("ingrese un numero"))
-for (datito;datito<=10;datito++){
-    let result = datito + 3;
-    alert("el resultado de sumarle 3 al numero que ingresaste es:" + result) //"datito" comienza con el numero que ingresas y le suma 3,al aceptar "datito" se incrementa en 1 y a ese nuevo valor de "datito" se le suma 3, "datito" puede valer HASTA 10
-}*/
-
-/*let texto = prompt("ingrese una palabra")
-for(i=1; texto!="esc";i++){
-    alert("la palabra que ingresaste es:" +i+" "+ texto)
-    if (i===5){
-        break
-    }
-}*/
-
-alert("bienvenido")
+alert("Bienvenido, este algoritmo mostrará un alert con un mensaje la cantidad de veces que usted le indique, ingresando un numero aleatorio.")
 let dato = parseInt(prompt("ingrese un numero"))
 for(num=1;num<=dato;num++){
-    alert("esto se repite el numero de veces correspondiente al numero que ingresaste :O")
+    alert("Numero ingresado: "+ dato +"."+" Este mensaje se repetirá "+ dato +" veces, por ser éste el numero ingresado. " + "("+ num +").")
 }
-
-
-
-
